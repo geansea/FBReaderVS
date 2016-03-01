@@ -39,9 +39,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -911,7 +913,9 @@
     <ClInclude Include="..\fbreader\src\options\FBCategoryKey.h" />
     <ClInclude Include="..\fbreader\src\options\FBOptions.h" />
     <ClInclude Include="..\fbreader\src\options\FBTextStyle.h" />
-    <ClInclude Include="Win32Config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FBReader.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -59,8 +59,6 @@
 #include "../database/booksdb/BooksDBUtil.h"
 #include "../library/Book.h"
 
-#include "Win32Config.h"
-
 static const std::string OPTIONS = "Options";
 
 const std::string FBReader::PageIndexParameter = "pageIndex";
@@ -172,7 +170,7 @@ FBReader::FBReader(const std::string &bookToOpen) :
 	myOpenFileHandler = new OpenFileHandler();
 	ZLCommunicationManager::Instance().registerHandler("openFile", myOpenFileHandler);
 
-	ZLNetworkManager::Instance().setUserAgent(std::string("FBReader/") + VERSION);
+	ZLNetworkManager::Instance().setUserAgent(std::string("FBReader/") + /*VERSION*/"0.14.0");
 }
 
 FBReader::~FBReader() {

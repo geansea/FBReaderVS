@@ -2659,9 +2659,6 @@
     <ClInclude Include="..\fbreader\src\formats\FormatPlugin.h">
       <Filter>fbreader\src\formats</Filter>
     </ClInclude>
-    <ClInclude Include="Win32Config.h">
-      <Filter>zlibrary</Filter>
-    </ClInclude>
     <ClInclude Include="..\fbreader\src\network\atom\ATOMConstructs.h">
       <Filter>fbreader\src\network\atom</Filter>
     </ClInclude>
@@ -2803,5 +2800,10 @@
     <ClInclude Include="..\zlibrary\core\src\unix\curl\ZLCurlNetworkManager.h">
       <Filter>zlibrary\core\src\unix\curl</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FBReader.rc">
+      <Filter>fbreader</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

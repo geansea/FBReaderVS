@@ -22,8 +22,6 @@
 #include "Migration.h"
 #include "migrate.h"
 
-#include "Win32Config.h"
-
 MigrationRunnable::MigrationRunnable() :
 	myVersionOption(FBCategoryKey::SYSTEM, "Version", "FBReaderVersion", "0") {
 }
@@ -31,7 +29,7 @@ MigrationRunnable::MigrationRunnable() :
 bool MigrationRunnable::shouldMigrate() const {
 	return
 		Migration::extractVersionInformation(myVersionOption.value()) <
-		Migration::extractVersionInformation(VERSION);
+		Migration::extractVersionInformation(/*VERSION*/"0.14.0");
 }
 
 void MigrationRunnable::run() {
@@ -41,5 +39,5 @@ void MigrationRunnable::run() {
 	Migration_0_10_4().doMigration();
 	Migration_0_11_0().doMigration();
 
-	myVersionOption.setValue(VERSION);
+	myVersionOption.setValue(/*VERSION*/"0.14.0");
 }
