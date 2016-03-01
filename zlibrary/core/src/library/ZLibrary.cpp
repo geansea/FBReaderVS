@@ -29,6 +29,8 @@
 #include "../options/ZLConfig.h"
 #include "../network/ZLNetworkManager.h"
 
+#include "Win32Config.h"
+
 bool ZLibrary::ourLocaleIsInitialized = false;
 std::string ZLibrary::ourLanguage;
 std::string ZLibrary::ourCountry;

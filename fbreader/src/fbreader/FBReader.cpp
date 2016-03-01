@@ -59,6 +59,8 @@
 #include "../database/booksdb/BooksDBUtil.h"
 #include "../library/Book.h"
 
+#include "Win32Config.h"
+
 static const std::string OPTIONS = "Options";
 
 const std::string FBReader::PageIndexParameter = "pageIndex";

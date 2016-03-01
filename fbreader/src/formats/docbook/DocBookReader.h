@@ -22,6 +22,12 @@
 
 #include <ZLXMLReader.h>
 
+#ifdef WIN32
+#ifdef _FILENAME
+#undef _FILENAME
+#endif
+#endif
+
 class DocBookReader : public ZLXMLReader {
 
 public:

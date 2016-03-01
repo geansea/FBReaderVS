@@ -17,9 +17,10 @@
  * 02110-1301, USA.
  */
 
-#include <gif_lib.h>
-
 #include "ZLWin32ImageManager.h"
+
+#if 0
+#include <gif_lib.h>
 
 #undef min
 
@@ -62,8 +63,10 @@ inline static void copyLine(ColorMapObject &cm, byte *&ptr, ZLWin32ImageData &da
 		}
 	}
 }
+#endif
 
 bool ZLWin32ImageManager::gifConvert(const std::string &stringData, ZLWin32ImageData &data, bool &result) const {
+#if 0
 	result = false;
 	GifReader reader(stringData);
 
@@ -131,4 +134,7 @@ bool ZLWin32ImageManager::gifConvert(const std::string &stringData, ZLWin32Image
 	DGifCloseFile(gif);
 	result = true;
 	return true;
+#else
+    return false;
+#endif
 }

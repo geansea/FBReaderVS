@@ -22,6 +22,8 @@
 #include "Migration.h"
 #include "migrate.h"
 
+#include "Win32Config.h"
+
 MigrationRunnable::MigrationRunnable() :
 	myVersionOption(FBCategoryKey::SYSTEM, "Version", "FBReaderVersion", "0") {
 }

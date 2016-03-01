@@ -19,6 +19,7 @@
 
 #include "ZLWin32ImageManager.h"
 
+#if 0
 #include <tiffio.h>
 
 #undef min
@@ -97,8 +98,10 @@ void TIFFReader::unmap(thandle_t, tdata_t, toff_t) {
 toff_t TIFFReader::size(thandle_t readerPtr) {
 	return ((TIFFReader*)readerPtr)->myData.length();
 }
+#endif
 
 bool ZLWin32ImageManager::tiffConvert(const std::string &stringData, ZLWin32ImageData &data, bool &result) const {
+#if 0
 	result = false;
 	TIFFReader reader(stringData);
 	TIFF *tiff = TIFFClientOpen("ZLWin32ImageManager", "rM", &reader, TIFFReader::read, TIFFReader::write, TIFFReader::seek, TIFFReader::close, TIFFReader::size, TIFFReader::map, TIFFReader::unmap);
@@ -120,4 +123,7 @@ bool ZLWin32ImageManager::tiffConvert(const std::string &stringData, ZLWin32Imag
 
 	TIFFClose(tiff);
 	return true;
+#else
+    return false;
+#endif
 }

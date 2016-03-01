@@ -17,13 +17,14 @@
  * 02110-1301, USA.
  */
 
+#include "ZLWin32ImageManager.h"
+
+#if 0
 #include <windows.h>
 
 #include <stdio.h>
 #include <setjmp.h>
 #include <jpeglib.h>
-
-#include "ZLWin32ImageManager.h"
 
 #undef min
 
@@ -100,8 +101,10 @@ struct JpegErrorManager : public jpeg_error_mgr {
 static void errorExit(j_common_ptr info) {
 	longjmp(((JpegErrorManager*)info->err)->mySetjmpBuffer, 1);
 }
+#endif
 
 bool ZLWin32ImageManager::jpegConvert(const std::string &stringData, ZLWin32ImageData &data, bool &result) const {
+#if 0
 	result = false;
 	struct jpeg_decompress_struct info;
 	JpegSourceManager reader(stringData);
@@ -159,4 +162,7 @@ bool ZLWin32ImageManager::jpegConvert(const std::string &stringData, ZLWin32Imag
 
 	result = true;
 	return true;
+#else
+    return false;
+#endif
 }

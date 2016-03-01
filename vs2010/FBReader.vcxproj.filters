@@ -20,9 +20,6 @@
     <Filter Include="zlibrary\core\src\application">
       <UniqueIdentifier>{479f5604-8bf6-4cc7-9618-e01141bad269}</UniqueIdentifier>
     </Filter>
-    <Filter Include="zlibrary\core\src\network">
-      <UniqueIdentifier>{5595573e-4f60-4c35-a30d-c6b55a7b21af}</UniqueIdentifier>
-    </Filter>
     <Filter Include="zlibrary\core\src\blockTreeView">
       <UniqueIdentifier>{7acf1469-5efb-4b0d-b5bb-7707a257183d}</UniqueIdentifier>
     </Filter>
@@ -98,17 +95,11 @@
     <Filter Include="zlibrary\core\src\desktop\dialogs">
       <UniqueIdentifier>{43bf11f5-5916-46dc-8e25-76bc17685744}</UniqueIdentifier>
     </Filter>
-    <Filter Include="zlibrary\core\src\filesystem\bzip2">
-      <UniqueIdentifier>{b140bcb7-cdfc-489c-8f2b-2bd3a02944bd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="zlibrary\core\src\filesystem\tar">
       <UniqueIdentifier>{9a10ad94-63c5-4531-acd3-69368812078c}</UniqueIdentifier>
     </Filter>
     <Filter Include="zlibrary\core\src\filesystem\zip">
       <UniqueIdentifier>{adc444b0-7c20-46f3-862d-05b88caf3fd4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="zlibrary\core\src\network\requests">
-      <UniqueIdentifier>{8b234415-95ee-4b72-b3fc-713d92a9bf01}</UniqueIdentifier>
     </Filter>
     <Filter Include="zlibrary\core\src\xml\expat">
       <UniqueIdentifier>{f3b5377d-cec1-4f1c-abaa-49170b18b9cb}</UniqueIdentifier>
@@ -186,1281 +177,2616 @@
     <Filter Include="fbreader\src">
       <UniqueIdentifier>{e527878c-9619-4499-9c68-d1981c0e896a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="fbreader\src\blockTree">
+      <UniqueIdentifier>{b1b94714-1fa6-4ad8-8db8-26d42df6d641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\bookmodel">
+      <UniqueIdentifier>{20553669-0a9a-4d7f-8b20-0e18073cb5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\database">
+      <UniqueIdentifier>{71a34c1a-c8b6-4734-8a3c-6e66474045fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\encodingOption">
+      <UniqueIdentifier>{906db4ef-7bb5-4f91-9d9f-f50a1684ba05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\external">
+      <UniqueIdentifier>{1aae2be4-47fa-4d32-8479-917e24df9b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\fbreader">
+      <UniqueIdentifier>{c63b9350-f18f-4659-b0e3-43eff8550835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats">
+      <UniqueIdentifier>{0ffc1ba4-25a0-42e4-aa12-01b0024f1562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\library">
+      <UniqueIdentifier>{5aaf195d-f3a5-4ce9-bad9-5df015c6586e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\libraryActions">
+      <UniqueIdentifier>{9379d500-65f1-4323-af2b-3f55f12e1609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\libraryTree">
+      <UniqueIdentifier>{219ced4b-0867-4c3c-9732-548197961114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\migration">
+      <UniqueIdentifier>{c6141ac7-d5eb-49fa-a8a3-17cc1c4471f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\networkActions">
+      <UniqueIdentifier>{38884117-21f3-4a3e-9d86-40a49593b343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\networkTree">
+      <UniqueIdentifier>{ec6731c4-fe86-4ab9-878b-1d9b896eff05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\options">
+      <UniqueIdentifier>{16ee6233-9003-45bd-862c-daec1ce19f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog">
+      <UniqueIdentifier>{a11bc315-876c-47e0-9a6e-5b796004b4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\database\booksdb">
+      <UniqueIdentifier>{06bca993-aa6d-4c2e-8ff0-6833465f3a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\database\sqldb">
+      <UniqueIdentifier>{5bb287e6-f168-4148-811c-6ff6800399ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\database\booksdb\runnables">
+      <UniqueIdentifier>{d9f78f9d-e6a0-4fd1-b9d2-e45ce3f22d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\database\sqldb\implsqlite">
+      <UniqueIdentifier>{9fcc0d2a-48c0-46f6-b1b1-b2e2f57ceba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\bookInfo">
+      <UniqueIdentifier>{cffdb6a4-6538-48ef-81bd-35601c757d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\library">
+      <UniqueIdentifier>{497d9e27-29a8-4d44-9c04-515405719f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\lookAndFeel">
+      <UniqueIdentifier>{a91790e9-9acf-4f94-83b4-18aed8c7c543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\reading">
+      <UniqueIdentifier>{6220e51e-6e50-49dc-8470-828ea4553026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\system">
+      <UniqueIdentifier>{e76628a4-e650-46b6-ad7a-a7561f645683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\chm">
+      <UniqueIdentifier>{9beaeb30-7f5f-4f68-a14a-c4f88a7ac16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\css">
+      <UniqueIdentifier>{8a8f2538-21ae-4e33-9f8e-492a1f945770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\fb2">
+      <UniqueIdentifier>{8fd2ea85-3c87-44ca-8391-e780d5de6b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\html">
+      <UniqueIdentifier>{97c45efd-7182-48f7-934b-b9b046286934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\oeb">
+      <UniqueIdentifier>{2d8a526a-66e6-4538-b285-e1af316a5012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\openreader">
+      <UniqueIdentifier>{f3dc4fd1-040e-4d2b-b668-34f68aa79de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\pdb">
+      <UniqueIdentifier>{5d17e3fe-51d8-4b10-b1a9-3fea537e15ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\rtf">
+      <UniqueIdentifier>{499a3223-901a-42eb-92c5-116fb20870d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\tcr">
+      <UniqueIdentifier>{194ce66e-8047-4211-8e0a-13260380e685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\txt">
+      <UniqueIdentifier>{2f191aff-dc72-4315-99c6-d85a93870c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\util">
+      <UniqueIdentifier>{03344ce3-b592-490f-afae-4a2c70e05393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\formats\xhtml">
+      <UniqueIdentifier>{74965535-ced0-47b0-8a01-ef45d8e62f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\network">
+      <UniqueIdentifier>{90afdd68-fdb8-4574-8f1b-e1d47d45e271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\network\atom">
+      <UniqueIdentifier>{c3d3690b-a109-4642-852a-9bb3b44c1ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\network\authentication">
+      <UniqueIdentifier>{9cc7610f-0e9b-4a4a-ae97-44d9c2992ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\network\opds">
+      <UniqueIdentifier>{0a45a5c4-1478-4a98-b821-5c75d8115306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlibrary\core\src\network">
+      <UniqueIdentifier>{9e367718-bd36-49e6-ae93-a722d2c0d8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlibrary\core\src\network\requests">
+      <UniqueIdentifier>{ee22f682-66bd-459b-a68c-8b3f204d5d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlibrary\core\src\unix">
+      <UniqueIdentifier>{ca576e3b-f2c1-4fc1-8d5d-9f1565901f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlibrary\core\src\unix\time">
+      <UniqueIdentifier>{132f40c2-8633-4ae3-8b31-45a147c5e9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbreader\src\optionsDialog\network">
+      <UniqueIdentifier>{243f31b9-e5e4-4e83-81d1-82fa71d62494}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplication.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLApplication.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationActions.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLApplicationActions.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationBase.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLApplicationBase.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationWindow.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLApplicationWindow.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLKeyBindings.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLKeyBindings.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLMenu.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLMenu.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\application\ZLToolbar.cpp">
+    <ClCompile Include="..\zlibrary\core\src\application\ZLToolbar.cpp">
       <Filter>zlibrary\core\src\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.cpp">
+    <ClCompile Include="..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.cpp">
       <Filter>zlibrary\core\src\blockTreeView</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.cpp">
+    <ClCompile Include="..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.cpp">
       <Filter>zlibrary\core\src\blockTreeView</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\constants\ZLMimeType.cpp">
+    <ClCompile Include="..\zlibrary\core\src\constants\ZLMimeType.cpp">
       <Filter>zlibrary\core\src\constants</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\constants\ZLXMLNamespace.cpp">
+    <ClCompile Include="..\zlibrary\core\src\constants\ZLXMLNamespace.cpp">
       <Filter>zlibrary\core\src\constants</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLDialog.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogContent.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLDialogContent.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogManager.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLDialogManager.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOpenFileDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLOpenFileDialog.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLOptionEntry.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionsDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLOptionsDialog.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionView.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLOptionView.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLProgressDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\dialogs\ZLProgressDialog.cpp">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\DummyEncodingConverter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\DummyEncodingConverter.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\EncodingCollectionReader.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\EncodingCollectionReader.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\MyEncodingConverter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\MyEncodingConverter.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingCollection.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\ZLEncodingCollection.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\ZLEncodingConverter.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingSet.cpp">
+    <ClCompile Include="..\zlibrary\core\src\encoding\ZLEncodingSet.cpp">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLDir.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\ZLDir.cpp">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLFile.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\ZLFile.cpp">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLFSManager.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\ZLFSManager.cpp">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLInputStreamDecorator.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\ZLInputStreamDecorator.cpp">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLBase64EncodedImage.cpp">
+    <ClCompile Include="..\zlibrary\core\src\image\ZLBase64EncodedImage.cpp">
       <Filter>zlibrary\core\src\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLFileImage.cpp">
+    <ClCompile Include="..\zlibrary\core\src\image\ZLFileImage.cpp">
       <Filter>zlibrary\core\src\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLImage.cpp">
+    <ClCompile Include="..\zlibrary\core\src\image\ZLImage.cpp">
       <Filter>zlibrary\core\src\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLImageManager.cpp">
+    <ClCompile Include="..\zlibrary\core\src\image\ZLImageManager.cpp">
       <Filter>zlibrary\core\src\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLNetworkImage.cpp">
+    <ClCompile Include="..\zlibrary\core\src\image\ZLStreamImage.cpp">
       <Filter>zlibrary\core\src\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\image\ZLStreamImage.cpp">
-      <Filter>zlibrary\core\src\image</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLCharSequence.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLCharSequence.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageDetector.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLLanguageDetector.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageList.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLLanguageList.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageMatcher.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLLanguageMatcher.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatistics.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLStatistics.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsGenerator.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLStatisticsGenerator.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsItem.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLStatisticsItem.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLReader.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLStatisticsXMLReader.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLWriter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\language\ZLStatisticsXMLWriter.cpp">
       <Filter>zlibrary\core\src\language</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\library\ZLibrary.cpp">
+    <ClCompile Include="..\zlibrary\core\src\library\ZLibrary.cpp">
       <Filter>zlibrary\core\src\library</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\logger\ZLLogger.cpp">
+    <ClCompile Include="..\zlibrary\core\src\logger\ZLLogger.cpp">
       <Filter>zlibrary\core\src\logger</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\message\ZLMessage.cpp">
+    <ClCompile Include="..\zlibrary\core\src\message\ZLMessage.cpp">
       <Filter>zlibrary\core\src\message</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLAsynchronousInputStream.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkManager.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkRequest.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkSSLCertificate.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkUtil.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.cpp">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.cpp">
+    <ClCompile Include="..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.cpp">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\options\ZLCategoryKey.cpp">
+    <ClCompile Include="..\zlibrary\core\src\options\ZLCategoryKey.cpp">
       <Filter>zlibrary\core\src\options</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\options\ZLConfig.cpp">
+    <ClCompile Include="..\zlibrary\core\src\options\ZLConfig.cpp">
       <Filter>zlibrary\core\src\options</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\options\ZLOptions.cpp">
+    <ClCompile Include="..\zlibrary\core\src\options\ZLOptions.cpp">
       <Filter>zlibrary\core\src\options</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\resources\ZLResource.cpp">
+    <ClCompile Include="..\zlibrary\core\src\resources\ZLResource.cpp">
       <Filter>zlibrary\core\src\resources</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\runnable\ZLExecutionData.cpp">
+    <ClCompile Include="..\zlibrary\core\src\runnable\ZLExecutionData.cpp">
       <Filter>zlibrary\core\src\runnable</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\runnable\ZLRunnable.cpp">
+    <ClCompile Include="..\zlibrary\core\src\runnable\ZLRunnable.cpp">
       <Filter>zlibrary\core\src\runnable</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\time\ZLTime.cpp">
+    <ClCompile Include="..\zlibrary\core\src\time\ZLTime.cpp">
       <Filter>zlibrary\core\src\time</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\time\ZLTimeManager.cpp">
+    <ClCompile Include="..\zlibrary\core\src\time\ZLTimeManager.cpp">
       <Filter>zlibrary\core\src\time</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\typeId\ZLTypeId.cpp">
+    <ClCompile Include="..\zlibrary\core\src\typeId\ZLTypeId.cpp">
       <Filter>zlibrary\core\src\typeId</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLFileUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLFileUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLKeyUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLKeyUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLLanguageUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLLanguageUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLSearchUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLSearchUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLStringUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLStringUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLUnicodeUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLUnicodeUtil.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\util\ZLUserData.cpp">
+    <ClCompile Include="..\zlibrary\core\src\util\ZLUserData.cpp">
       <Filter>zlibrary\core\src\util</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\view\ZLMirroredPaintContext.cpp">
+    <ClCompile Include="..\zlibrary\core\src\view\ZLMirroredPaintContext.cpp">
       <Filter>zlibrary\core\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\view\ZLPaintContext.cpp">
+    <ClCompile Include="..\zlibrary\core\src\view\ZLPaintContext.cpp">
       <Filter>zlibrary\core\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\view\ZLView.cpp">
+    <ClCompile Include="..\zlibrary\core\src\view\ZLView.cpp">
       <Filter>zlibrary\core\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\xml\ZLXMLReader.cpp">
+    <ClCompile Include="..\zlibrary\core\src\xml\ZLXMLReader.cpp">
       <Filter>zlibrary\core\src\xml</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\xml\ZLXMLWriter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\xml\ZLXMLWriter.cpp">
       <Filter>zlibrary\core\src\xml</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.cpp">
+    <ClCompile Include="..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.cpp">
       <Filter>zlibrary\core\src\desktop\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.cpp">
       <Filter>zlibrary\core\src\desktop\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.cpp">
+    <ClCompile Include="..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.cpp">
       <Filter>zlibrary\core\src\desktop\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\bzip2\ZLBzip2InputStream.cpp">
-      <Filter>zlibrary\core\src\filesystem\bzip2</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\tar\ZLTar.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\tar\ZLTar.cpp">
       <Filter>zlibrary\core\src\filesystem\tar</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLGzipInputStream.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLGzipInputStream.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipDir.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLZipDir.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipEntryCache.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLZipEntryCache.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipHeader.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLZipHeader.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipInputStream.cpp">
+    <ClCompile Include="..\zlibrary\core\src\filesystem\zip\ZLZipInputStream.cpp">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.cpp">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.cpp">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.cpp">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.cpp">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.cpp">
+    <ClCompile Include="..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.cpp">
       <Filter>zlibrary\core\src\xml\expat</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\config\RegistryUtil.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\config\RegistryUtil.cpp">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\config\StringEncoder.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\config\StringEncoder.cpp">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\config\ZLWin32Config.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\config\ZLWin32Config.cpp">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\config\ZLWin32ConfigIO.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\config\ZLWin32ConfigIO.cpp">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.cpp">
       <Filter>zlibrary\core\src\win32\encoding</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.cpp">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.cpp">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.cpp">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.cpp">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.cpp">
+    <ClCompile Include="..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.cpp">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\FloatingToolbar.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\application\FloatingToolbar.cpp">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\Toolbar.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\application\Toolbar.cpp">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.cpp">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.cpp">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.cpp">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_bmp.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_bmp.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_gif.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_gif.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_jpeg.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_jpeg.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_png.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_png.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_tiff.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_tiff.cpp">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\library\ZLibraryWin32.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\library\ZLibraryWin32.cpp">
       <Filter>zlibrary\ui\src\win32\library</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\message\ZLWin32Message.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\message\ZLWin32Message.cpp">
       <Filter>zlibrary\ui\src\win32\message</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\time\ZLWin32Time.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\time\ZLWin32Time.cpp">
       <Filter>zlibrary\ui\src\win32\time</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.cpp">
       <Filter>zlibrary\ui\src\win32\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.cpp">
       <Filter>zlibrary\ui\src\win32\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Box.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Box.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Container.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Container.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Control.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Control.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Event.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Event.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32PropertySheet.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32PropertySheet.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32StandaloneDialogPanel.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32StandaloneDialogPanel.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Table.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Table.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32TreeView.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32TreeView.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32VBorderBox.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32VBorderBox.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Widget.cpp">
+    <ClCompile Include="..\zlibrary\ui\src\win32\w32widgets\W32Widget.cpp">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextAreaController.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextAreaController.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextAreaStyle.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextAreaStyle.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawTextLine.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea_drawTextLine.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawTreeLines.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea_drawTreeLines.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawWord.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea_drawWord.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_prepareTextLine.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea_prepareTextLine.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_processTextLine.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextArea_processTextLine.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextElement.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextElement.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextParagraphBuilder.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextParagraphBuilder.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextParagraphCursor.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextParagraphCursor.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextSelectionModel.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextSelectionModel.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextWord.cpp">
+    <ClCompile Include="..\zlibrary\text\src\area\ZLTextWord.cpp">
       <Filter>zlibrary\text\src\area</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.cpp">
+    <ClCompile Include="..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.cpp">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenator.cpp">
+    <ClCompile Include="..\zlibrary\text\src\hyphenation\ZLTextHyphenator.cpp">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.cpp">
+    <ClCompile Include="..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.cpp">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextModel.cpp">
+    <ClCompile Include="..\zlibrary\text\src\model\ZLTextModel.cpp">
       <Filter>zlibrary\text\src\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextParagraph.cpp">
+    <ClCompile Include="..\zlibrary\text\src\model\ZLTextParagraph.cpp">
       <Filter>zlibrary\text\src\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.cpp">
+    <ClCompile Include="..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.cpp">
       <Filter>zlibrary\text\src\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextDecoratedStyle.cpp">
+    <ClCompile Include="..\zlibrary\text\src\style\ZLTextDecoratedStyle.cpp">
       <Filter>zlibrary\text\src\style</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextStyle.cpp">
+    <ClCompile Include="..\zlibrary\text\src\style\ZLTextStyle.cpp">
       <Filter>zlibrary\text\src\style</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextStyleCollection.cpp">
+    <ClCompile Include="..\zlibrary\text\src\style\ZLTextStyleCollection.cpp">
       <Filter>zlibrary\text\src\style</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.cpp">
+    <ClCompile Include="..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.cpp">
       <Filter>zlibrary\text\src\styleOptions</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicator.cpp">
+    <ClCompile Include="..\zlibrary\text\src\view\ZLTextPositionIndicator.cpp">
       <Filter>zlibrary\text\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextSelectionScroller.cpp">
+    <ClCompile Include="..\zlibrary\text\src\view\ZLTextSelectionScroller.cpp">
       <Filter>zlibrary\text\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextView.cpp">
+    <ClCompile Include="..\zlibrary\text\src\view\ZLTextView.cpp">
       <Filter>zlibrary\text\src\view</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextView_paint.cpp">
+    <ClCompile Include="..\zlibrary\text\src\view\ZLTextView_paint.cpp">
       <Filter>zlibrary\text\src\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\blockTree\FBReaderNode.cpp">
+      <Filter>fbreader\src\blockTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\bookmodel\BookModel.cpp">
+      <Filter>fbreader\src\bookmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\bookmodel\BookReader.cpp">
+      <Filter>fbreader\src\bookmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\ClearBooksDBRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\DeleteBookRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\DeleteFileEntriesRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\FindFileIdRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\InitBooksDBRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\LoadFileEntriesRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\LoadRecentBooksRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveAuthorsRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveBookRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveBookStateStackRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveRecentBooksRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveSeriesRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\runnables\SaveTableBookRunnable.cpp">
+      <Filter>fbreader\src\database\booksdb\runnables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDB.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDB_BookAuthor.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDB_BookSeries.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDB_BookTag.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDBQuery.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\booksdb\BooksDBUtil.cpp">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteCommand.cpp">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteConnection.cpp">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteDataBase.cpp">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteDataReader.cpp">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteFactory.cpp">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DataBase.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBCommand.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBCommandParameter.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBConnection.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBDataReader.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBIntValue.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBNullValue.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBRealValue.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBTextValue.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\database\sqldb\DBValue.cpp">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\encodingOption\EncodingOptionEntry.cpp">
+      <Filter>fbreader\src\encodingOption</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\external\ProgramCollection.cpp">
+      <Filter>fbreader\src\external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\AddBookAction.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\BooksOrderAction.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\BookTextView.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\ContentsView.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\FBReader.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\FBReaderActionCode.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\FBReaderActions.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\FBView.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\main.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\PreferencesPopupData.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\RecentBooksPopupData.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\ScrollingAction.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\SearchActions.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\TimeUpdater.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\library\Author.cpp">
+      <Filter>fbreader\src\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\library\Book.cpp">
+      <Filter>fbreader\src\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\library\Comparators.cpp">
+      <Filter>fbreader\src\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\library\Library.cpp">
+      <Filter>fbreader\src\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\library\Tag.cpp">
+      <Filter>fbreader\src\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryActions\AuthorInfoDialog.cpp">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryActions\BooksUtil.cpp">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryActions\LibraryAuthorActions.cpp">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryActions\LibraryBookActions.cpp">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryActions\LibraryTagActions.cpp">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\AuthorNode.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\BookNode.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\LibraryByAuthorView.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\LibraryByTagView.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\LibraryView.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\SeriesNode.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\libraryTree\TagNode.cpp">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\BookInfo.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\FB2MigrationReader.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\HtmlDCTagsReader.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\migrate.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration_0_10_4.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration_0_11_0.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration_0_8_11.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration_0_8_13.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\Migration_0_8_16.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\migration\OEBMigrationReader.cpp">
+      <Filter>fbreader\src\migration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkActions\AuthenticationDialog.cpp">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkActions\NetworkActions.cpp">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkActions\NetworkOperationRunnable.cpp">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkActions\PasswordRecoveryDialog.cpp">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkActions\RegisterUserDialog.cpp">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkAuthorNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkBookNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkCatalogNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkCatalogRootNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkCatalogUtil.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkContainerNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkNodesFactory.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkSeriesNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\NetworkView.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\networkTree\SearchResultNode.cpp">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\options\FBCategoryKey.cpp">
+      <Filter>fbreader\src\options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\options\FBOptions.cpp">
+      <Filter>fbreader\src\options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\options\FBTextStyle.cpp">
+      <Filter>fbreader\src\options</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\bookInfo\BookInfoDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\bookInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\library\LibraryOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\lookAndFeel\FormatOptionsPage.cpp">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\lookAndFeel\LookAndFeelOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\lookAndFeel\OptionsPage.cpp">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\lookAndFeel\StyleOptionsPage.cpp">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\reading\IndicatorTab.cpp">
+      <Filter>fbreader\src\optionsDialog\reading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\reading\KeyBindingsTab.cpp">
+      <Filter>fbreader\src\optionsDialog\reading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\reading\ReadingOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\reading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\system\SystemOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\AbstractOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\IntegrationTab.cpp">
+      <Filter>fbreader\src\optionsDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\BitStream.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\CHMFile.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\CHMFileImage.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\CHMPlugin.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\CHMReferenceCollection.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\E8Decoder.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\HHCReader.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\HHCReferenceCollector.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\HtmlSectionReader.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\HuffmanDecoder.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\chm\LZXDecompressor.cpp">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\css\StyleSheetParser.cpp">
+      <Filter>fbreader\src\formats\css</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\css\StyleSheetTable.cpp">
+      <Filter>fbreader\src\formats\css</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2BookReader.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2CoverReader.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2MetaInfoReader.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2Plugin.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2Reader.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\fb2\FB2TagManager.cpp">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlBookReader.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlDescriptionReader.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlEntityCollection.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlPlugin.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlReader.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\html\HtmlReaderStream.cpp">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\NCXReader.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\OEBBookReader.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\OEBCoverReader.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\OEBMetaInfoReader.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\OEBPlugin.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\oeb\OEBTextStream.cpp">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\openreader\OpenReaderPlugin.cpp">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\openreader\ORBookReader.cpp">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\openreader\ORDescriptionReader.cpp">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\BitReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\DocDecompressor.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\EReaderPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\EReaderStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\HtmlMetainfoReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\HuffDecompressor.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\MobipocketHtmlBookReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\MobipocketPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PalmDocLikePlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PalmDocLikeStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PalmDocPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PalmDocStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PdbPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PdbReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PdbStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PluckerBookReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PluckerImages.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PluckerPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PluckerTextStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PmlBookReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\PmlReader.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\SimplePdbPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\ZTXTPlugin.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\pdb\ZTXTStream.cpp">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfBookReader.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfDescriptionReader.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfImage.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfPlugin.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfReader.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\rtf\RtfReaderStream.cpp">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\tcr\PPLBookReader.cpp">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\tcr\TcrPlugin.cpp">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\tcr\TcrStream.cpp">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\txt\PlainTextFormat.cpp">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\txt\TxtBookReader.cpp">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\txt\TxtPlugin.cpp">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\txt\TxtReader.cpp">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\util\EntityFilesCollector.cpp">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\util\MergedStream.cpp">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\util\MiscUtil.cpp">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\util\TextFormatDetector.cpp">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\util\XMLTextStream.cpp">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\xhtml\XHTMLReader.cpp">
+      <Filter>fbreader\src\formats\xhtml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\EncodedTextReader.cpp">
+      <Filter>fbreader\src\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\FormatPlugin.cpp">
+      <Filter>fbreader\src\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\formats\PluginCollection.cpp">
+      <Filter>fbreader\src\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\atom\ATOMConstructs.cpp">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\atom\ATOMContainers.cpp">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\atom\ATOMMetadata.cpp">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\basic\BasicAuthenticationManager.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\basic\BasicAuthenticationRequest.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResAuthenticationDataParser.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResAuthenticationManager.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResBookshelfItem.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResDataParser.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResGenre.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResGenresParser.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\litres\LitResUtil.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\authentication\NetworkAuthenticationManager.cpp">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\NetworkOPDSFeedReader.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\OPDSCatalogItem.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\OPDSLink.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\OPDSLink_Reader.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\OPDSMetadata.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\opds\OPDSXMLParser.cpp">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\BookReference.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkBookCollection.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkBookItem.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkCatalogItem.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkComparators.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkErrors.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkItem.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkLink.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkLinkCollection.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\NetworkOperationData.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\SearchResult.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\network\UserList.cpp">
+      <Filter>fbreader\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.cpp">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.cpp">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.cpp">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.cpp">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLAsynchronousInputStream.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLNetworkManager.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLNetworkRequest.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLNetworkSSLCertificate.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLNetworkUtil.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.cpp">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\unix\time\ZLUnixTime.cpp">
+      <Filter>zlibrary\core\src\unix\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\fbreader\SearchOnNetworkAction.cpp">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fbreader\src\optionsDialog\network\NetworkOptionsDialog.cpp">
+      <Filter>fbreader\src\optionsDialog\network</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLApplication.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLApplication.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLApplicationWindow.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLApplicationWindow.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLKeyBindings.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLKeyBindings.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLMenu.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLMenu.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLPopupData.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLPopupData.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\application\ZLToolbar.h">
+    <ClInclude Include="..\zlibrary\core\src\application\ZLToolbar.h">
       <Filter>zlibrary\core\src\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.h">
+    <ClInclude Include="..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.h">
       <Filter>zlibrary\core\src\blockTreeView</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.h">
+    <ClInclude Include="..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.h">
       <Filter>zlibrary\core\src\blockTreeView</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\constants\ZLMimeType.h">
+    <ClInclude Include="..\zlibrary\core\src\constants\ZLMimeType.h">
       <Filter>zlibrary\core\src\constants</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\constants\ZLXMLNamespace.h">
+    <ClInclude Include="..\zlibrary\core\src\constants\ZLXMLNamespace.h">
       <Filter>zlibrary\core\src\constants</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLDialog.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogContent.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLDialogContent.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogManager.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLDialogManager.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOpenFileDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLOpenFileDialog.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLOptionEntry.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionsDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLOptionsDialog.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionView.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLOptionView.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLProgressDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\dialogs\ZLProgressDialog.h">
       <Filter>zlibrary\core\src\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\encoding\DummyEncodingConverter.h">
+    <ClInclude Include="..\zlibrary\core\src\encoding\DummyEncodingConverter.h">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\encoding\EncodingCollectionReader.h">
+    <ClInclude Include="..\zlibrary\core\src\encoding\EncodingCollectionReader.h">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\encoding\MyEncodingConverter.h">
+    <ClInclude Include="..\zlibrary\core\src\encoding\MyEncodingConverter.h">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverter.h">
+    <ClInclude Include="..\zlibrary\core\src\encoding\ZLEncodingConverter.h">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverterProvider.h">
+    <ClInclude Include="..\zlibrary\core\src\encoding\ZLEncodingConverterProvider.h">
       <Filter>zlibrary\core\src\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLDir.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLDir.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFile.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLFile.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFileInfo.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLFileInfo.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFSDir.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLFSDir.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFSManager.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLFSManager.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLInputStream.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLInputStream.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLOutputStream.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\ZLOutputStream.h">
       <Filter>zlibrary\core\src\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLBase64EncodedImage.h">
+    <ClInclude Include="..\zlibrary\core\src\image\ZLBase64EncodedImage.h">
       <Filter>zlibrary\core\src\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLFileImage.h">
+    <ClInclude Include="..\zlibrary\core\src\image\ZLFileImage.h">
       <Filter>zlibrary\core\src\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLImage.h">
+    <ClInclude Include="..\zlibrary\core\src\image\ZLImage.h">
       <Filter>zlibrary\core\src\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLImageManager.h">
+    <ClInclude Include="..\zlibrary\core\src\image\ZLImageManager.h">
       <Filter>zlibrary\core\src\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLNetworkImage.h">
+    <ClInclude Include="..\zlibrary\core\src\image\ZLStreamImage.h">
       <Filter>zlibrary\core\src\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\image\ZLStreamImage.h">
-      <Filter>zlibrary\core\src\image</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLCharSequence.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLCharSequence.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageDetector.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLLanguageDetector.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageList.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLLanguageList.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageMatcher.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLLanguageMatcher.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatistics.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLStatistics.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsGenerator.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLStatisticsGenerator.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsItem.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLStatisticsItem.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLReader.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLStatisticsXMLReader.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLWriter.h">
+    <ClInclude Include="..\zlibrary\core\src\language\ZLStatisticsXMLWriter.h">
       <Filter>zlibrary\core\src\language</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\library\ZLibrary.h">
+    <ClInclude Include="..\zlibrary\core\src\library\ZLibrary.h">
       <Filter>zlibrary\core\src\library</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\logger\ZLLogger.h">
+    <ClInclude Include="..\zlibrary\core\src\logger\ZLLogger.h">
       <Filter>zlibrary\core\src\logger</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\message\ZLMessage.h">
+    <ClInclude Include="..\zlibrary\core\src\message\ZLMessage.h">
       <Filter>zlibrary\core\src\message</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLAsynchronousInputStream.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkManager.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkRequest.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkSSLCertificate.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkUtil.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.h">
-      <Filter>zlibrary\core\src\network</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.h">
       <Filter>zlibrary\core\src\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\options\ZLConfig.h">
+    <ClInclude Include="..\zlibrary\core\src\options\ZLConfig.h">
       <Filter>zlibrary\core\src\options</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\options\ZLOptions.h">
+    <ClInclude Include="..\zlibrary\core\src\options\ZLOptions.h">
       <Filter>zlibrary\core\src\options</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\resources\ZLResource.h">
+    <ClInclude Include="..\zlibrary\core\src\resources\ZLResource.h">
       <Filter>zlibrary\core\src\resources</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\runnable\ZLExecutionData.h">
+    <ClInclude Include="..\zlibrary\core\src\runnable\ZLExecutionData.h">
       <Filter>zlibrary\core\src\runnable</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\runnable\ZLRunnable.h">
+    <ClInclude Include="..\zlibrary\core\src\runnable\ZLRunnable.h">
       <Filter>zlibrary\core\src\runnable</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\time\ZLTime.h">
+    <ClInclude Include="..\zlibrary\core\src\time\ZLTime.h">
       <Filter>zlibrary\core\src\time</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\time\ZLTimeManager.h">
+    <ClInclude Include="..\zlibrary\core\src\time\ZLTimeManager.h">
       <Filter>zlibrary\core\src\time</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\typeId\ZLTypeId.h">
+    <ClInclude Include="..\zlibrary\core\src\typeId\ZLTypeId.h">
       <Filter>zlibrary\core\src\typeId</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\allocator.h">
+    <ClInclude Include="..\zlibrary\core\src\util\allocator.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\shared_ptr.h">
+    <ClInclude Include="..\zlibrary\core\src\util\shared_ptr.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLBoolean3.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLBoolean3.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLColor.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLColor.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLFileUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLFileUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLKeyUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLKeyUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLLanguageUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLLanguageUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLSearchUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLSearchUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLStringUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLStringUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLUnicodeUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLUnicodeUtil.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\util\ZLUserData.h">
+    <ClInclude Include="..\zlibrary\core\src\util\ZLUserData.h">
       <Filter>zlibrary\core\src\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\view\ZLMirroredPaintContext.h">
+    <ClInclude Include="..\zlibrary\core\src\view\ZLMirroredPaintContext.h">
       <Filter>zlibrary\core\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\view\ZLPaintContext.h">
+    <ClInclude Include="..\zlibrary\core\src\view\ZLPaintContext.h">
       <Filter>zlibrary\core\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\view\ZLView.h">
+    <ClInclude Include="..\zlibrary\core\src\view\ZLView.h">
       <Filter>zlibrary\core\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\view\ZLViewWidget.h">
+    <ClInclude Include="..\zlibrary\core\src\view\ZLViewWidget.h">
       <Filter>zlibrary\core\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\xml\ZLXMLReader.h">
+    <ClInclude Include="..\zlibrary\core\src\xml\ZLXMLReader.h">
       <Filter>zlibrary\core\src\xml</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\xml\ZLXMLWriter.h">
+    <ClInclude Include="..\zlibrary\core\src\xml\ZLXMLWriter.h">
       <Filter>zlibrary\core\src\xml</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLColorOptionBuilder.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLColorOptionBuilder.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLFontFamilyOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLFontFamilyOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLLanguageOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLLanguageOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLSimpleKeyOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLSimpleKeyOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLSimpleOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLSimpleOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLStringEditOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLStringEditOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLStringInfoEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLStringInfoEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLToggleBooleanOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\optionEntries\ZLToggleBooleanOptionEntry.h">
       <Filter>zlibrary\core\include\optionEntries</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\allocator.h">
+    <ClInclude Include="..\zlibrary\core\include\allocator.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\shared_ptr.h">
+    <ClInclude Include="..\zlibrary\core\include\shared_ptr.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLApplication.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLApplication.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLAsynchronousInputStream.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLAsynchronousInputStream.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLBase64EncodedImage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLBase64EncodedImage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLBlockTreeNode.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLBlockTreeNode.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLBlockTreeView.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLBlockTreeView.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLBoolean3.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLBoolean3.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLColor.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLColor.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLDialog.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLDialog.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLDialogContent.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLDialogContent.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLDialogManager.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLDialogManager.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLDir.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLDir.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLEncodingConverter.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLEncodingConverter.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLExecutionData.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLExecutionData.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLFile.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLFile.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLFileImage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLFileImage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLFileInfo.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLFileInfo.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLFileUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLFileUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLibrary.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLibrary.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLImage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLImage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLImageManager.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLImageManager.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLInputStream.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLInputStream.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLKeyBindings.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLKeyBindings.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageDetector.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLLanguageDetector.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageList.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLLanguageList.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLLanguageUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLLogger.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLLogger.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLMessage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLMessage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLMimeType.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLMimeType.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLMirroredPaintContext.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLMirroredPaintContext.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkImage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLNetworkImage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkManager.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLNetworkManager.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkRequest.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLNetworkRequest.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkSSLCertificate.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLNetworkSSLCertificate.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLNetworkUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLOpenFileDialog.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLOpenFileDialog.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLOptionEntry.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLOptionEntry.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLOptions.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLOptions.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLOptionsDialog.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLOptionsDialog.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLOutputStream.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLOutputStream.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLPaintContext.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLPaintContext.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLPlainAsynchronousInputStream.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLPlainAsynchronousInputStream.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLPopupData.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLPopupData.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLProgressDialog.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLProgressDialog.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLResource.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLResource.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLRunnable.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLRunnable.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLSearchUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLSearchUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLStreamImage.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLStreamImage.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLStringUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLStringUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLTime.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLTime.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLTimeManager.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLTimeManager.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLTypeId.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLTypeId.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLUnicodeUtil.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLUnicodeUtil.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLUserData.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLUserData.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLView.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLView.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLNamespace.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLXMLNamespace.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLReader.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLXMLReader.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLWriter.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLXMLWriter.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\include\ZLZDecompressor.h">
+    <ClInclude Include="..\zlibrary\core\include\ZLZDecompressor.h">
       <Filter>zlibrary\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.h">
+    <ClInclude Include="..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.h">
       <Filter>zlibrary\core\src\desktop\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.h">
       <Filter>zlibrary\core\src\desktop\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.h">
+    <ClInclude Include="..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.h">
       <Filter>zlibrary\core\src\desktop\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\bzip2\ZLBzip2InputStream.h">
-      <Filter>zlibrary\core\src\filesystem\bzip2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\tar\ZLTar.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\tar\ZLTar.h">
       <Filter>zlibrary\core\src\filesystem\tar</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.h">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZip.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\zip\ZLZip.h">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipHeader.h">
+    <ClInclude Include="..\zlibrary\core\src\filesystem\zip\ZLZipHeader.h">
       <Filter>zlibrary\core\src\filesystem\zip</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.h">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.h">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.h">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.h">
-      <Filter>zlibrary\core\src\network\requests</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.h">
+    <ClInclude Include="..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.h">
       <Filter>zlibrary\core\src\xml\expat</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\config\StringEncoder.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\config\StringEncoder.h">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\config\ZLWin32Config.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\config\ZLWin32Config.h">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\config\ZLWin32ConfigValue.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\config\ZLWin32ConfigValue.h">
       <Filter>zlibrary\core\src\win32\config</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.h">
       <Filter>zlibrary\core\src\win32\encoding</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.h">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.h">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.h">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.h">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.h">
       <Filter>zlibrary\core\src\win32\filesystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\core\src\win32\util\W32WCHARUtil.h">
+    <ClInclude Include="..\zlibrary\core\src\win32\util\W32WCHARUtil.h">
       <Filter>zlibrary\core\src\win32\util</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.h">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.h">
       <Filter>zlibrary\ui\src\win32\application</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.h">
       <Filter>zlibrary\ui\src\win32\dialogs</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.h">
       <Filter>zlibrary\ui\src\win32\image</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\message\ZLWin32Message.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\message\ZLWin32Message.h">
       <Filter>zlibrary\ui\src\win32\message</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\time\ZLWin32Time.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\time\ZLWin32Time.h">
       <Filter>zlibrary\ui\src\win32\time</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.h">
       <Filter>zlibrary\ui\src\win32\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.h">
       <Filter>zlibrary\ui\src\win32\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Container.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32Container.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Control.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32Control.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Event.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32Event.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32TreeView.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32TreeView.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Widget.h">
+    <ClInclude Include="..\zlibrary\ui\src\win32\w32widgets\W32Widget.h">
       <Filter>zlibrary\ui\src\win32\w32widgets</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextAlignmentType.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextAlignmentType.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextArea.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextArea.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextAreaController.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextAreaController.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextElement.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextElement.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextFontModifier.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextFontModifier.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextHyphenator.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextHyphenator.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextKind.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextKind.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextMark.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextMark.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextModel.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextModel.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextParagraph.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextParagraph.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextParagraphCursor.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextParagraphCursor.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextPositionIndicator.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextPositionIndicator.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextPositionIndicatorInfo.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextPositionIndicatorInfo.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextRectangle.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextRectangle.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextRowMemoryAllocator.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextRowMemoryAllocator.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextSelectionModel.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextSelectionModel.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyle.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextStyle.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyleCollection.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextStyleCollection.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyleOptions.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextStyleOptions.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextTeXHyphenator.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextTeXHyphenator.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextView.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextView.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\include\ZLTextWord.h">
+    <ClInclude Include="..\zlibrary\text\include\ZLTextWord.h">
       <Filter>zlibrary\text\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextArea.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextArea.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextAreaController.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextAreaController.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextAreaStyle.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextAreaStyle.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextElement.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextElement.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextLineInfo.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextLineInfo.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextParagraphBuilder.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextParagraphBuilder.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextParagraphCursor.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextParagraphCursor.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextRectangle.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextRectangle.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextSelectionModel.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextSelectionModel.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextWord.h">
+    <ClInclude Include="..\zlibrary\text\src\area\ZLTextWord.h">
       <Filter>zlibrary\text\src\area</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.h">
+    <ClInclude Include="..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.h">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenator.h">
+    <ClInclude Include="..\zlibrary\text\src\hyphenation\ZLTextHyphenator.h">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.h">
+    <ClInclude Include="..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.h">
       <Filter>zlibrary\text\src\hyphenation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextAlignmentType.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextAlignmentType.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextFontModifier.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextFontModifier.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextKind.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextKind.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextMark.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextMark.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextModel.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextModel.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextParagraph.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextParagraph.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.h">
+    <ClInclude Include="..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.h">
       <Filter>zlibrary\text\src\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextDecoratedStyle.h">
+    <ClInclude Include="..\zlibrary\text\src\style\ZLTextDecoratedStyle.h">
       <Filter>zlibrary\text\src\style</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextStyle.h">
+    <ClInclude Include="..\zlibrary\text\src\style\ZLTextStyle.h">
       <Filter>zlibrary\text\src\style</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextStyleCollection.h">
+    <ClInclude Include="..\zlibrary\text\src\style\ZLTextStyleCollection.h">
       <Filter>zlibrary\text\src\style</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.h">
+    <ClInclude Include="..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.h">
       <Filter>zlibrary\text\src\styleOptions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicator.h">
+    <ClInclude Include="..\zlibrary\text\src\view\ZLTextPositionIndicator.h">
       <Filter>zlibrary\text\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicatorInfo.h">
+    <ClInclude Include="..\zlibrary\text\src\view\ZLTextPositionIndicatorInfo.h">
       <Filter>zlibrary\text\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextSelectionScroller.h">
+    <ClInclude Include="..\zlibrary\text\src\view\ZLTextSelectionScroller.h">
       <Filter>zlibrary\text\src\view</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextView.h">
+    <ClInclude Include="..\zlibrary\text\src\view\ZLTextView.h">
       <Filter>zlibrary\text\src\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\blockTree\FBReaderNode.h">
+      <Filter>fbreader\src\blockTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\bookmodel\BookModel.h">
+      <Filter>fbreader\src\bookmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\bookmodel\BookReader.h">
+      <Filter>fbreader\src\bookmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\bookmodel\FBTextKind.h">
+      <Filter>fbreader\src\bookmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\booksdb\BooksDB.h">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\booksdb\BooksDBQuery.h">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\booksdb\BooksDBUtil.h">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\booksdb\DBRunnables.h">
+      <Filter>fbreader\src\database\booksdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteCommand.h">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteConnection.h">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteDataBase.h">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteDataReader.h">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\implsqlite\SQLiteFactory.h">
+      <Filter>fbreader\src\database\sqldb\implsqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DataBase.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBCommand.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBCommandParameter.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBConnection.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBDataReader.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBRunnable.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\database\sqldb\DBValues.h">
+      <Filter>fbreader\src\database\sqldb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\encodingOption\EncodingOptionEntry.h">
+      <Filter>fbreader\src\encodingOption</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\external\ProgramCollection.h">
+      <Filter>fbreader\src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\BookTextView.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\ContentsView.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\FBReader.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\FBReaderActions.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\FBView.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\FootnoteView.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\PreferencesPopupData.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\ReadingState.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\RecentBooksPopupData.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\ScrollingAction.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\fbreader\TimeUpdater.h">
+      <Filter>fbreader\src\fbreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\library\Author.h">
+      <Filter>fbreader\src\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\library\Book.h">
+      <Filter>fbreader\src\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\library\Library.h">
+      <Filter>fbreader\src\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\library\Lists.h">
+      <Filter>fbreader\src\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\library\Tag.h">
+      <Filter>fbreader\src\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryActions\AuthorInfoDialog.h">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryActions\BooksUtil.h">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryActions\LibraryAuthorActions.h">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryActions\LibraryBookActions.h">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryActions\LibraryTagActions.h">
+      <Filter>fbreader\src\libraryActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryTree\LibraryNodes.h">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\libraryTree\LibraryView.h">
+      <Filter>fbreader\src\libraryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\BookInfo.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\FB2MigrationReader.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\HtmlDCTagsReader.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\migrate.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\Migration.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\migration\OEBMigrationReader.h">
+      <Filter>fbreader\src\migration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkActions\AuthenticationDialog.h">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkActions\NetworkActions.h">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkActions\NetworkOperationRunnable.h">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkActions\PasswordRecoveryDialog.h">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkActions\RegisterUserDialog.h">
+      <Filter>fbreader\src\networkActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkTree\NetworkCatalogUtil.h">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkTree\NetworkNodes.h">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkTree\NetworkNodesFactory.h">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\networkTree\NetworkView.h">
+      <Filter>fbreader\src\networkTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\options\FBCategoryKey.h">
+      <Filter>fbreader\src\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\options\FBOptions.h">
+      <Filter>fbreader\src\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\options\FBTextStyle.h">
+      <Filter>fbreader\src\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\bookInfo\BookInfoDialog.h">
+      <Filter>fbreader\src\optionsDialog\bookInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\library\LibraryOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog\library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\lookAndFeel\FormatOptionsPage.h">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\lookAndFeel\LookAndFeelOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\lookAndFeel\OptionsPage.h">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\lookAndFeel\StyleOptionsPage.h">
+      <Filter>fbreader\src\optionsDialog\lookAndFeel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\reading\ReadingOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog\reading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\system\SystemOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\AbstractOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\BitStream.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\CHMFile.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\CHMFileImage.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\CHMPlugin.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\CHMReferenceCollection.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\HHCReader.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\HHCReferenceCollector.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\HtmlSectionReader.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\HuffmanDecoder.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\chm\LZXDecompressor.h">
+      <Filter>fbreader\src\formats\chm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\css\StyleSheetParser.h">
+      <Filter>fbreader\src\formats\css</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\css\StyleSheetTable.h">
+      <Filter>fbreader\src\formats\css</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2BookReader.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2CoverReader.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2MetaInfoReader.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2Plugin.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2Reader.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\fb2\FB2TagManager.h">
+      <Filter>fbreader\src\formats\fb2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlBookReader.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlDescriptionReader.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlEntityCollection.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlPlugin.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlReader.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlReaderStream.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\html\HtmlTagActions.h">
+      <Filter>fbreader\src\formats\html</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\NCXReader.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\OEBBookReader.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\OEBCoverReader.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\OEBMetaInfoReader.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\OEBPlugin.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\oeb\OEBTextStream.h">
+      <Filter>fbreader\src\formats\oeb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\openreader\OpenReaderPlugin.h">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\openreader\ORBookReader.h">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\openreader\ORDescriptionReader.h">
+      <Filter>fbreader\src\formats\openreader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\BitReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\DocDecompressor.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\EReaderStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\HtmlMetainfoReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\HuffDecompressor.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\MobipocketHtmlBookReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PalmDocLikeStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PalmDocStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PdbPlugin.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PdbReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PdbStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PluckerBookReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PluckerImages.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PluckerTextStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PmlBookReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\PmlReader.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\pdb\ZTXTStream.h">
+      <Filter>fbreader\src\formats\pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfBookReader.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfDescriptionReader.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfImage.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfPlugin.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfReader.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\rtf\RtfReaderStream.h">
+      <Filter>fbreader\src\formats\rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\tcr\PPLBookReader.h">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\tcr\TcrPlugin.h">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\tcr\TcrStream.h">
+      <Filter>fbreader\src\formats\tcr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\txt\PlainTextFormat.h">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\txt\TxtBookReader.h">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\txt\TxtPlugin.h">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\txt\TxtReader.h">
+      <Filter>fbreader\src\formats\txt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\util\EntityFilesCollector.h">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\util\MergedStream.h">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\util\MiscUtil.h">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\util\TextFormatDetector.h">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\util\XMLTextStream.h">
+      <Filter>fbreader\src\formats\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\xhtml\XHTMLReader.h">
+      <Filter>fbreader\src\formats\xhtml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\EncodedTextReader.h">
+      <Filter>fbreader\src\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\formats\FormatPlugin.h">
+      <Filter>fbreader\src\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Config.h">
+      <Filter>zlibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\atom\ATOMConstructs.h">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\atom\ATOMContainers.h">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\atom\ATOMMetadata.h">
+      <Filter>fbreader\src\network\atom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\basic\BasicAuthenticationManager.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\basic\BasicAuthenticationRequest.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResAuthenticationDataParser.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResAuthenticationManager.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResBookshelfItem.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResDataParser.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResGenre.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResGenresParser.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\litres\LitResUtil.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\authentication\NetworkAuthenticationManager.h">
+      <Filter>fbreader\src\network\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\NetworkOPDSFeedReader.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSCatalogItem.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSFeedReader.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSLink.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSLink_AdvancedSearch.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSLink_Reader.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSMetadata.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\OPDSXMLParser.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\opds\URLRewritingRule.h">
+      <Filter>fbreader\src\network\opds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\BookReference.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkBookCollection.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkComparators.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkErrors.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkItems.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkLink.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkLinkCollection.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\NetworkOperationData.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\SearchResult.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\network\UserList.h">
+      <Filter>fbreader\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.h">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.h">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.h">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.h">
+      <Filter>zlibrary\core\src\network\requests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLAsynchronousInputStream.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLNetworkManager.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLNetworkRequest.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLNetworkSSLCertificate.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLNetworkUtil.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.h">
+      <Filter>zlibrary\core\src\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\unix\time\ZLUnixTime.h">
+      <Filter>zlibrary\core\src\unix\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fbreader\src\optionsDialog\network\NetworkOptionsDialog.h">
+      <Filter>fbreader\src\optionsDialog\network</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
