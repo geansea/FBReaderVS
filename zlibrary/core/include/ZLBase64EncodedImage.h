@@ -1,1 +1,1 @@
-../src/image/ZLBase64EncodedImage.h
+#include "../src/image/ZLBase64EncodedImage.h"

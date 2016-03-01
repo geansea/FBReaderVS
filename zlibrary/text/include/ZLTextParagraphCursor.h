@@ -1,1 +1,1 @@
-../src/area/ZLTextParagraphCursor.h
+#include "../src/area/ZLTextParagraphCursor.h"

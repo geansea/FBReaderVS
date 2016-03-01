@@ -1,1 +1,1 @@
-../src/dialogs/ZLOpenFileDialog.h
+#include "../src/dialogs/ZLOpenFileDialog.h"

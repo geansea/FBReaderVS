@@ -1,1 +1,1 @@
-../src/style/ZLTextStyleCollection.h
+#include "../src/style/ZLTextStyleCollection.h"

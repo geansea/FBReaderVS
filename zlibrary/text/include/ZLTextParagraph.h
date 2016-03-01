@@ -1,1 +1,1 @@
-../src/model/ZLTextParagraph.h
+#include "../src/model/ZLTextParagraph.h"

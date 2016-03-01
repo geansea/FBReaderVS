@@ -1,1 +1,1 @@
-../src/xml/ZLXMLWriter.h
+#include "../src/xml/ZLXMLWriter.h"

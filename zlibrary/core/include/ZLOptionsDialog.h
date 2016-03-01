@@ -1,1 +1,1 @@
-../src/dialogs/ZLOptionsDialog.h
+#include "../src/dialogs/ZLOptionsDialog.h"

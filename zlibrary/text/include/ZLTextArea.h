@@ -1,1 +1,1 @@
-../src/area/ZLTextArea.h
+#include "../src/area/ZLTextArea.h"

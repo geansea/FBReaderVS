@@ -1,1 +1,1 @@
-../src/hyphenation/ZLTextTeXHyphenator.h
+#include "../src/hyphenation/ZLTextTeXHyphenator.h"

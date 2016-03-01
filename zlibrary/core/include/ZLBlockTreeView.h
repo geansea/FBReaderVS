@@ -1,1 +1,1 @@
-../src/blockTreeView/ZLBlockTreeView.h
+#include "../src/blockTreeView/ZLBlockTreeView.h"

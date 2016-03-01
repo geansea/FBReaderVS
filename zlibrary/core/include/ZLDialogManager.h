@@ -1,1 +1,1 @@
-../src/dialogs/ZLDialogManager.h
+#include "../src/dialogs/ZLDialogManager.h"

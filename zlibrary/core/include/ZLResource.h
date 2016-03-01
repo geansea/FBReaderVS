@@ -1,1 +1,1 @@
-../src/resources/ZLResource.h
+#include "../src/resources/ZLResource.h"

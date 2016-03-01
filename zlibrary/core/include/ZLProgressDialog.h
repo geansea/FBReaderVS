@@ -1,1 +1,1 @@
-../src/dialogs/ZLProgressDialog.h
+#include "../src/dialogs/ZLProgressDialog.h"

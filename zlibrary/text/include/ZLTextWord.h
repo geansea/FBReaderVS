@@ -1,1 +1,1 @@
-../src/area/ZLTextWord.h
+#include "../src/area/ZLTextWord.h"

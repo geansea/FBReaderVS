@@ -1,1 +1,1 @@
-../src/model/ZLTextKind.h
+#include "../src/model/ZLTextKind.h"

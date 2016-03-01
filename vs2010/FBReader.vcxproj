@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{030B12A0-32B3-4055-87E0-91998BE1ECAB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FBReader</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlibrary\core\include;$(SolutionDir)..\zlibrary\text\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\zlibrary\core\include;$(SolutionDir)..\zlibrary\text\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplication.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationActions.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationBase.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLApplicationWindow.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLKeyBindings.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLMenu.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\application\ZLToolbar.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\constants\ZLMimeType.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\constants\ZLXMLNamespace.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogContent.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLDialogManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOpenFileDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionsDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLOptionView.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\dialogs\ZLProgressDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\DummyEncodingConverter.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\EncodingCollectionReader.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\MyEncodingConverter.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingCollection.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverter.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\encoding\ZLEncodingSet.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\bzip2\ZLBzip2InputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\tar\ZLTar.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLGzipInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipDir.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipEntryCache.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipHeader.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLDir.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLFile.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLFSManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\filesystem\ZLInputStreamDecorator.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLBase64EncodedImage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLFileImage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLImage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLImageManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLNetworkImage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\image\ZLStreamImage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLCharSequence.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageDetector.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageList.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLLanguageMatcher.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatistics.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsGenerator.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsItem.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLReader.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLWriter.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\library\ZLibrary.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\logger\ZLLogger.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\message\ZLMessage.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLAsynchronousInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkRequest.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkSSLCertificate.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLNetworkUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\options\ZLCategoryKey.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\options\ZLConfig.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\options\ZLOptions.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\resources\ZLResource.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\runnable\ZLExecutionData.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\runnable\ZLRunnable.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\time\ZLTime.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\time\ZLTimeManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\typeId\ZLTypeId.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLFileUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLKeyUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLLanguageUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLSearchUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLStringUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLUnicodeUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\util\ZLUserData.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\view\ZLMirroredPaintContext.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\view\ZLPaintContext.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\view\ZLView.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\config\RegistryUtil.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\config\StringEncoder.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\config\ZLWin32Config.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\config\ZLWin32ConfigIO.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\xml\ZLXMLReader.cpp" />
+    <ClCompile Include="..\..\zlibrary\core\src\xml\ZLXMLWriter.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextAreaController.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextAreaStyle.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawTextLine.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawTreeLines.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_drawWord.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_prepareTextLine.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextArea_processTextLine.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextElement.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextParagraphBuilder.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextParagraphCursor.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextSelectionModel.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\area\ZLTextWord.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenator.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextModel.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextParagraph.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextDecoratedStyle.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextStyle.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\style\ZLTextStyleCollection.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicator.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextSelectionScroller.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextView.cpp" />
+    <ClCompile Include="..\..\zlibrary\text\src\view\ZLTextView_paint.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\FloatingToolbar.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\Toolbar.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_bmp.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_gif.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_jpeg.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_png.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager_tiff.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\library\ZLibraryWin32.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\message\ZLWin32Message.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\time\ZLWin32Time.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Box.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Container.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Control.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Event.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32PropertySheet.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32StandaloneDialogPanel.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Table.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32TreeView.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32VBorderBox.cpp" />
+    <ClCompile Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Widget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\zlibrary\core\include\allocator.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLColorOptionBuilder.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLFontFamilyOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLLanguageOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLSimpleKeyOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLSimpleOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLStringEditOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLStringInfoEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\optionEntries\ZLToggleBooleanOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\shared_ptr.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLApplication.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLAsynchronousInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLBase64EncodedImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLBlockTreeNode.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLBlockTreeView.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLBoolean3.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLColor.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLDialogContent.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLDialogManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLDir.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLEncodingConverter.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLExecutionData.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLFile.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLFileImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLFileInfo.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLFileUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLibrary.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLImageManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLKeyBindings.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageDetector.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageList.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLLanguageUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLLogger.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLMessage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLMimeType.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLMirroredPaintContext.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkSSLCertificate.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLNetworkUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLOpenFileDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLOptions.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLOptionsDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLOutputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLPaintContext.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLPlainAsynchronousInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLPopupData.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLProgressDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLResource.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLRunnable.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLSearchUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLStreamImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLStringUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLTime.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLTimeManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLTypeId.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLUnicodeUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLUserData.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLView.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLNamespace.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLReader.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLXMLWriter.h" />
+    <ClInclude Include="..\..\zlibrary\core\include\ZLZDecompressor.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLApplication.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLApplicationWindow.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLKeyBindings.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLMenu.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLPopupData.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\application\ZLToolbar.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeNode.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\blockTreeView\ZLBlockTreeView.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\constants\ZLMimeType.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\constants\ZLXMLNamespace.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\desktop\application\ZLDesktopApplicationWindow.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOpenFileDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\desktop\dialogs\ZLDesktopOptionsDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogContent.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogContentBuilder.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLDialogManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOpenFileDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionsDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLOptionView.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\dialogs\ZLProgressDialog.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\encoding\DummyEncodingConverter.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\encoding\EncodingCollectionReader.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\encoding\MyEncodingConverter.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverter.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\encoding\ZLEncodingConverterProvider.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\bzip2\ZLBzip2InputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\tar\ZLTar.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZDecompressor.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZip.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\zip\ZLZipHeader.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLDir.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFile.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFileInfo.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFSDir.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLFSManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\filesystem\ZLOutputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLBase64EncodedImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLFileImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLImageManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLNetworkImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\image\ZLStreamImage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLCharSequence.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageDetector.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageList.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLLanguageMatcher.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatistics.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsGenerator.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsItem.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLReader.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\language\ZLStatisticsXMLWriter.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\library\ZLibrary.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\logger\ZLLogger.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\message\ZLMessage.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkDownloadRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkNoActionRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkReadToStringRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\requests\ZLNetworkXMLParserRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLAsynchronousInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLGzipAsynchronousInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkRequest.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkSSLCertificate.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLNetworkUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\network\ZLPlainAsynchronousInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLColorOptionBuilder.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLFontFamilyOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLLanguageOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleKeyOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLSimpleOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLStringEditOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLStringInfoEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\optionEntries\ZLToggleBooleanOptionEntry.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\options\ZLConfig.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\options\ZLOptions.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\resources\ZLResource.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\runnable\ZLExecutionData.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\runnable\ZLRunnable.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\time\ZLTime.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\time\ZLTimeManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\typeId\ZLTypeId.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\allocator.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\shared_ptr.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLBoolean3.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLColor.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLFileUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLKeyUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLLanguageUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLSearchUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLStringUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLUnicodeUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\util\ZLUserData.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\view\ZLMirroredPaintContext.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\view\ZLPaintContext.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\view\ZLView.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\view\ZLViewWidget.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\config\StringEncoder.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\config\ZLWin32Config.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\config\ZLWin32ConfigValue.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\encoding\ZLWin32EncodingConverter.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileInputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FileOutputStream.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSDir.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32FSManager.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\filesystem\ZLWin32RootDir.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\win32\util\W32WCHARUtil.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\xml\expat\ZLXMLReaderInternal.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\xml\ZLXMLReader.h" />
+    <ClInclude Include="..\..\zlibrary\core\src\xml\ZLXMLWriter.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextAlignmentType.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextArea.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextAreaController.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextElement.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextFontModifier.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextHyphenator.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextKind.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextMark.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextModel.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextParagraph.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextParagraphCursor.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextPositionIndicator.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextPositionIndicatorInfo.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextRectangle.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextRowMemoryAllocator.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextSelectionModel.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyle.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyleCollection.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextStyleOptions.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextTeXHyphenator.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextView.h" />
+    <ClInclude Include="..\..\zlibrary\text\include\ZLTextWord.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextArea.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextAreaController.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextAreaStyle.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextElement.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextLineInfo.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextParagraphBuilder.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextParagraphCursor.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextRectangle.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextSelectionModel.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\area\ZLTextWord.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenationReader.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextHyphenator.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\hyphenation\ZLTextTeXHyphenator.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextAlignmentType.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextFontModifier.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextKind.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextMark.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextModel.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextParagraph.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\model\ZLTextRowMemoryAllocator.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\styleOptions\ZLTextStyleOptions.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextDecoratedStyle.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextStyle.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\style\ZLTextStyleCollection.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicator.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextPositionIndicatorInfo.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextSelectionScroller.h" />
+    <ClInclude Include="..\..\zlibrary\text\src\view\ZLTextView.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\application\ZLWin32ApplicationWindow.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\application\ZLWin32PopupMenu.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32Dialog.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogContent.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32DialogManager.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32MessageBox.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionsDialog.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32OptionView.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\dialogs\ZLWin32ProgressDialog.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\image\ZLWin32ImageManager.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\message\ZLWin32Message.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\time\ZLWin32Time.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\view\ZLWin32PaintContext.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\view\ZLWin32ViewWidget.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ColorComboBox.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Container.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Control.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32ControlCollection.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32DialogPanel.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Event.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32TreeView.h" />
+    <ClInclude Include="..\..\zlibrary\ui\src\win32\w32widgets\W32Widget.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

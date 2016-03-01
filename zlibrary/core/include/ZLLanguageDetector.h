@@ -1,1 +1,1 @@
-../src/language/ZLLanguageDetector.h
+#include "../src/language/ZLLanguageDetector.h"

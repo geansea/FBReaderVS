@@ -1,1 +1,1 @@
-../src/model/ZLTextModel.h
+#include "../src/model/ZLTextModel.h"

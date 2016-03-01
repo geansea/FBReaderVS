@@ -1,1 +1,1 @@
-../../src/optionEntries/ZLStringInfoEntry.h
+#include "../../src/optionEntries/ZLStringInfoEntry.h"

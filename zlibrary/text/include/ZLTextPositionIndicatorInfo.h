@@ -1,1 +1,1 @@
-../src/view/ZLTextPositionIndicatorInfo.h
+#include "../src/view/ZLTextPositionIndicatorInfo.h"

@@ -1,1 +1,1 @@
-../src/model/ZLTextRowMemoryAllocator.h
+#include "../src/model/ZLTextRowMemoryAllocator.h"
