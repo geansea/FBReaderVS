@@ -312,6 +312,9 @@
     <Filter Include="fbreader\src\optionsDialog\network">
       <UniqueIdentifier>{243f31b9-e5e4-4e83-81d1-82fa71d62494}</UniqueIdentifier>
     </Filter>
+    <Filter Include="zlibrary\core\src\unix\curl">
+      <UniqueIdentifier>{f4de3cfc-91fb-4d32-8dd9-a705974f9264}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\zlibrary\core\src\application\ZLApplication.cpp">
@@ -1498,6 +1501,12 @@
     </ClCompile>
     <ClCompile Include="..\fbreader\src\optionsDialog\network\NetworkOptionsDialog.cpp">
       <Filter>fbreader\src\optionsDialog\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\image\ZLNetworkImage.cpp">
+      <Filter>zlibrary\core\src\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zlibrary\core\src\unix\curl\ZLCurlNetworkManager.cpp">
+      <Filter>zlibrary\core\src\unix\curl</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2787,6 +2796,12 @@
     </ClInclude>
     <ClInclude Include="..\fbreader\src\optionsDialog\network\NetworkOptionsDialog.h">
       <Filter>fbreader\src\optionsDialog\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\image\ZLNetworkImage.h">
+      <Filter>zlibrary\core\src\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zlibrary\core\src\unix\curl\ZLCurlNetworkManager.h">
+      <Filter>zlibrary\core\src\unix\curl</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
