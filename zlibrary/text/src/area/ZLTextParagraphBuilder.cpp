@@ -130,7 +130,7 @@ void ZLTextParagraphCursor::Builder::processTextEntry(const ZLTextEntry &textEnt
 	int firstNonSpace = 0;
 	while ((firstNonSpace < len) &&
 				 ZLUnicodeUtil::isSpace(myUcs4String[firstNonSpace])) {
-		//myBidiLevels[firstNonSpace++] = myLatestBidiLevel;
+		firstNonSpace++;//myBidiLevels[firstNonSpace++] = myLatestBidiLevel;
 	}
 	int lastNonSpace = len - 1;
 	if (lastNonSpace > firstNonSpace - 1) {
