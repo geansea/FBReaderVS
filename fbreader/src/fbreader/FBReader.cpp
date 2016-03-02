@@ -170,7 +170,7 @@ FBReader::FBReader(const std::string &bookToOpen) :
 	myOpenFileHandler = new OpenFileHandler();
 	ZLCommunicationManager::Instance().registerHandler("openFile", myOpenFileHandler);
 
-	ZLNetworkManager::Instance().setUserAgent(std::string("FBReader/") + /*VERSION*/"0.14.0");
+	ZLNetworkManager::Instance().setUserAgent(std::string("FBReader/") + VERSION);
 }
 
 FBReader::~FBReader() {

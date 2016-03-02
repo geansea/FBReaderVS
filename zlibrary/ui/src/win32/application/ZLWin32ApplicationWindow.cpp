@@ -416,6 +416,8 @@ void ZLWin32ApplicationWindow::addToolbarItem(ZLToolbar::ItemPtr item) {
 			button.fsStyle = TBSTYLE_BUTTON | BTNS_AUTOSIZE | BTNS_SHOWTEXT;
 			button.fsState = 0;
 			tb.TBItemByActionCode[button.idCommand] = item;
+			button.dwData = 0;
+			button.iString = 0;
 			break;
 		}
 		case ZLToolbar::Item::PLAIN_BUTTON:

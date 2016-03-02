@@ -41,7 +41,7 @@ std::string ZLibrary::ourApplicationDirectory;
 std::string ZLibrary::ourApplicationWritableDirectory;
 std::string ZLibrary::ourDefaultFilesPathPrefix;
 
-const std::string ZLibrary::BaseDirectory = std::string(/*BASEDIR*/"E:\\test\\fbreader");
+const std::string ZLibrary::BaseDirectory = std::string(BASEDIR);
 
 void ZLibrary::parseArguments(int &argc, char **&argv) {
 	static const std::string LANGUAGE_OPTION = "-lang";
@@ -102,8 +102,8 @@ std::string ZLibrary::replaceRegExps(const std::string &pattern) {
 
 void ZLibrary::initApplication(const std::string &name) {
 	ourApplicationName = name;
-	ourImageDirectory = replaceRegExps(/*IMAGEDIR*/"E:\\test\\fbreader\\icons");
-	ourApplicationImageDirectory = replaceRegExps(/*APPIMAGEDIR*/"E:\\test\\fbreader\\icons");
+	ourImageDirectory = replaceRegExps(IMAGEDIR);
+	ourApplicationImageDirectory = replaceRegExps(APPIMAGEDIR);
 	ourApplicationDirectory = BaseDirectory + FileNameDelimiter + ourApplicationName;
 	ourApplicationWritableDirectory =
 #ifdef XMLCONFIGHOMEDIR
