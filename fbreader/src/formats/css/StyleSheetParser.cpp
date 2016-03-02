@@ -75,7 +75,8 @@ void StyleSheetParser::parse(const char *text, int len, bool final) {
 	const char *start = text;
 	const char *end = text + len;
 	for (const char *ptr = start; ptr != end; ++ptr) {
-		if (isspace(*ptr)) {
+        if (*ptr < 0) {
+        } else if (isspace(*ptr)) {
 			if (start != ptr) {
 				myWord.append(start, ptr - start);
 			}
