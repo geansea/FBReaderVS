@@ -60,7 +60,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>sqlite3.lib;zlib.lib;libexpatMT.lib;libcurl.lib;comctl32.lib;ws2_32.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;zlib.lib;libexpatMT.lib;libcurl.lib;jpeg.lib;libpng.lib;comctl32.lib;ws2_32.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)third-party\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
@@ -86,7 +86,7 @@ robocopy /E $(SolutionDir)share $(OutDir)share</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>sqlite3.lib;zlib.lib;libexpatMT.lib;libcurl.lib;comctl32.lib;ws2_32.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;zlib.lib;libexpatMT.lib;libcurl.lib;jpeg.lib;libpng.lib;comctl32.lib;ws2_32.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)third-party\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>

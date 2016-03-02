@@ -19,8 +19,7 @@
 
 #include "ZLWin32ImageManager.h"
 
-#if 0
-#include <png.h>
+#include <png/png.h>
 
 class PngReader {
 
@@ -47,10 +46,8 @@ static void pngReadFunction(png_structp png_ptr, png_bytep data, png_size_t leng
 		png_error(png_ptr, "Read Error");
 	}
 }
-#endif
 
 bool ZLWin32ImageManager::pngConvert(const std::string &stringData, ZLWin32ImageData &data, bool &result) const {
-#if 0
 	result = false;
 	if (!png_check_sig((png_byte*)stringData.data(), 8)) {
 		return false;
@@ -124,7 +121,4 @@ bool ZLWin32ImageManager::pngConvert(const std::string &stringData, ZLWin32Image
 	png_destroy_read_struct(&pngStructure, &pngInfo, 0);
 	result = true;
 	return true;
-#else
-    return false;
-#endif
 }
